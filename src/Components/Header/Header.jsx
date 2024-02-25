@@ -139,7 +139,7 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
-                        <Link to={'/'} className={navStyle}>
+                        <Link to={'/contact'} className={navStyle}>
                             Contact
                         </Link>
                     </div>

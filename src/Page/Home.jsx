@@ -9,6 +9,7 @@ import { RiEmotionHappyLine } from "react-icons/ri";
 import { ImStarHalf } from "react-icons/im";
 import CountUp, { useCountUp } from 'react-countup'
 import Testimonial from '../Components/Cards/CardsSection/Testimonial'
+import ContactForms from '../Components/Forms/ContactForms'
 
 
 const Home = () => {
@@ -55,6 +56,7 @@ const Home = () => {
                 </div>
             </div>
             <Testimonial />
+            <ContactForms />
         </div>
     )
 }
