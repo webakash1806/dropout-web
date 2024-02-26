@@ -42,7 +42,7 @@ const ContactForms = () => {
                 </div>
                 <button type='submit' className='bg-[#FFB827] hover:bg-[#fbb66d] duration-300 mt-2 text-[#000] w-full rounded-md p-[5px] font-semibold text-[1.05rem]'>Submit</button>
             </form>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3623.333915000624!2d84.36398907487639!3d24.749737849680088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1705812780578!5m2!1sen!2sin" className='w-full h-[16rem] mt-[5rem]' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.9836786372284!2d82.97985107538426!3d25.271134477663452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398e31b7a920b513%3A0x2cb948837eeea5f8!2sAtal%20Incubation%20Centre!5e0!3m2!1sen!2sin!4v1708926092218!5m2!1sen!2sin" className='w-full h-[16rem] mt-[5rem]' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
     )
 }

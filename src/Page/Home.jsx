@@ -11,7 +11,6 @@ import CountUp, { useCountUp } from 'react-countup'
 import Testimonial from '../Components/Cards/CardsSection/Testimonial'
 import ContactForms from '../Components/Forms/ContactForms'
 
-
 const Home = () => {
     useCountUp({
         ref: 'counter',

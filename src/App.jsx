@@ -9,15 +9,11 @@ const App = () => {
   return (
     <div className='flex flex-col justify-end min-h-screen'>
       <Header />
-
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
-
       </Routes>
-
       <Footer />
-
     </div>
   )
 }
