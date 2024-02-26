@@ -34,7 +34,7 @@ const Home = () => {
                     <div className='flex flex-col items-center justify-center'>
                         <RiEmotionHappyLine className='text-[4rem]' />
                         <div className='text-[2rem] flex items-center'>
-                            <CountUp end={15000} enableScrollSpy /><span className='font-[450] text-[2.7rem]'>+</span>
+                            <CountUp end={500} enableScrollSpy /><span className='font-[450] text-[2.7rem]'>+</span>
                         </div>
                         <p className='text-[1.4rem]'>Happy Customers</p>
                     </div>
@@ -48,7 +48,7 @@ const Home = () => {
                     <div className='flex flex-col items-center justify-center'>
                         <LiaAwardSolid className='text-[4rem]' />
                         <div className='text-[2rem] flex items-center'>
-                            <CountUp end={1000} enableScrollSpy /><span className='font-[450] text-[2.7rem]'>+</span>
+                            <CountUp end={10} enableScrollSpy /><span className='font-[450] text-[2.7rem]'>+</span>
                         </div>
                         <p className='text-[1.4rem]'>Awards Won</p>
                     </div>
