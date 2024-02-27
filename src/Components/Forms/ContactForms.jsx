@@ -6,10 +6,10 @@ const ContactForms = () => {
     return (
         <div className='min-h-[90vh] flex items-center flex-col justify-between text-white bg-[#15191d]'>
             <div className='flex items-end'>
-                <div className='hidden border border-red-400 lg:block'>
-                    <img src={contactImg} alt="" className='w-[25rem] h-[25rem]' />
+                <div className='hidden  lg:block shadow-md shadow-[#6D75DE] backdrop-blur-md bg-[#6d75de94] rounded-md rounded-r-none'>
+                    <img src={contactImg} alt="" className='w-[25rem] h-[26.5rem] ' />
                 </div>
-                <form noValidate action="" className='relative h-fit py-8 flex flex-col items-center justify-center gap-[9px] mt-[8rem] bg-[#1A202A] p-4 rounded-lg rounded-tl-none shadow-md shadow-[#6D75DE]'>
+                <form noValidate action="" className='relative h-fit py-8 flex flex-col items-center justify-center gap-[9px] mt-[8rem] bg-[#1A202A] p-4 rounded-lg lg:rounded-l-none rounded-tl-none shadow-md shadow-[#6D75DE]'>
                     <div className='flex items-center bg-[#1A202A] justify-between w-fit p-[6px] gap-3 pr-5 rounded-lg left-0 rounded-b-none absolute top-[-2.7rem] text-[1.1rem]'>
                         <FcBusinessContact className='text-[#BEC1FC] text-[1.8rem]' />
                         <h1 className='tracking-wide'>Contact Us</h1>

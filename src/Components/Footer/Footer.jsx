@@ -23,7 +23,7 @@ const Footer = () => {
     const year = new Date().getFullYear()
 
     return (
-        <footer className=' bg-[#1B2124] text-white'>
+        <footer className=' bg-[#151224] text-white'>
             <div className='flex flex-col xl:flex-row p-[2.5rem_1rem] md:p-[2.5_5rem] gap-8 xl:justify-around'>
                 <div className='flex flex-col gap-2'>
                     <div className='mb-3'><img className='w-[8rem]' alt="" />LOGO</div>

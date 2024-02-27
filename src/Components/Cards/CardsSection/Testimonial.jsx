@@ -20,7 +20,7 @@ const Testimonial = () => {
     };
     return (
         <div className='relative flex flex-col items-center justify-between pb-[5rem] bg-black' >
-            <img src={cardBgImg} alt="" className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black to-white' />
+            <img src={cardBgImg} alt="" className='absolute top-0 left-0 w-full h-full' />
             <Label content={"Testimonials"} />
             <Slider {...settings} className=' mt-[5rem] xl:mt-[7rem] flex h-fit z-[60] w-full'>
                 {

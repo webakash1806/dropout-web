@@ -10,6 +10,7 @@ import { ImStarHalf } from "react-icons/im";
 import CountUp, { useCountUp } from 'react-countup'
 import Testimonial from '../Components/Cards/CardsSection/Testimonial'
 import ContactForms from '../Components/Forms/ContactForms'
+import TechUsedSection from '../Components/Cards/CardsSection/TechUsedSection'
 
 const Home = () => {
     useCountUp({
@@ -21,6 +22,7 @@ const Home = () => {
         <div className='font-poppins'>
             <HeroCarousel />
             <HomeCards />
+            <TechUsedSection />
             <ScrollImg />
             <div className='flex items-center justify-center'>
                 <div className='w-full bg-[#000000a4] py-16 text-white grid gap-6 p-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-content-center place-items-center'>
