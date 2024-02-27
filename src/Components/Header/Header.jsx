@@ -36,106 +36,106 @@ const Header = () => {
                         </Link>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Company <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/company/mission'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Our Mission</Link>
-                                    <Link to={'/company/vision'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Our Vision</Link>
-                                    <Link to={'/company/team'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Our Team</Link>
-                                    <Link to={'/company/approach'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Our Approach</Link>
+                                    <Link to={'/company/mission'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Our Mission</Link>
+                                    <Link to={'/company/vision'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Our Vision</Link>
+                                    <Link to={'/company/team'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Our Team</Link>
+                                    <Link to={'/company/approach'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Our Approach</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Website <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Web Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Website Development</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Ecommerce Website</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Best Website Designing Company in Varanasi</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Website Designing Packages</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Web Design</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Website Design Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Ecommerce Website</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Best Website Designing Company in Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Designing Packages</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Design</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Design Development</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>App <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Android App Development</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Mobile Applications</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Android App Development</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Android App Development Company in Varanasi</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Android App Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Android App Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Mobile Applications</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Android App Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Android App Development Company in Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Android App Development</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Security <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100  w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100  w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Network Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Cloud Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Endpoint Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Mobile Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>IoT Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Application Security</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Zero Trust</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Network Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Cloud Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Endpoint Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Mobile Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>IoT Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Application Security</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Zero Trust</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Graphics <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Graphic Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Graphic Designing Company In Varanasi</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Profile Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Logo Design</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Graphic Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Graphic Designing Company In Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Profile Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Logo Design</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Digital Marketing <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Social Media Optimization</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>SEO In Varanasi</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Search Engine (SEO)</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Digital Marketing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Digital Marketing 2</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>SMO In Varanasi</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Facebook Marketing & Advertising</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Graphic Designing Packages</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Digital Marketing Packages</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Facebook Marketing & Advertising</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Social Media Optimization</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>SEO In Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Search Engine (SEO)</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Digital Marketing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Digital Marketing 2</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>SMO In Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Facebook Marketing & Advertising</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Graphic Designing Packages</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Digital Marketing Packages</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Facebook Marketing & Advertising</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Portfolio <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Product Mockup Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Mascot Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>3D Designing & Modeling</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Political Post Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Facebook Post Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Instagram Post Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Visiting/Business Card Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>E Brochure Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Website Designing & Development</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Product Mockup Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Mascot Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>3D Designing & Modeling</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Political Post Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Facebook Post Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Instagram Post Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Visiting/Business Card Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>E Brochure Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Designing & Development</Link>
                                 </li>
                             </ul>
                         </div>
                         <div className="dropdown dropdown-hover">
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Blog <FontAwesomeIcon icon={faSortDown} /></div>
-                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem]">
+                            <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Logo Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Graphic Logo Designing</Link>
-                                    <Link to={'/'} className={`${navStyle} xl:w-[15rem] xl:p-2 xl:border-b rounded-none`}>Graphic Designers & Designing Company In Varanasi</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Logo Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Graphic Logo Designing</Link>
+                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Graphic Designers & Designing Company In Varanasi</Link>
                                 </li>
                             </ul>
                         </div>

@@ -10,7 +10,7 @@ const TechUsedSection = () => {
             <img src={techVideo} alt="" className='absolute top-0 left-0 object-cover w-full h-full' />
 
             <Label content={"Tech We Use"} />
-            <div className='relative z-[20]  gap-2 flex flex-col'>
+            <div className='relative z-[20]  gap-4 flex flex-col pb-8 bg-[#2221216e]'>
                 <TechCardSec />
                 <LanguageSection />
             </div>
