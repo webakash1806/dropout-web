@@ -27,7 +27,7 @@ const Footer = () => {
             <div className='flex flex-col xl:flex-row p-[2.5rem_1rem] md:p-[2.5_5rem] gap-8 xl:justify-around'>
                 <div className='flex flex-col gap-2'>
                     <div className='mb-3'><img className='w-[8rem]' alt="" />LOGO</div>
-                    <p className='leading-6 xl:w-[23rem] w-full'>Shivam IT Solution is Rated No. 1 Website and App Development and IT Company in Varanasi, Uttarpradesh, India. We delivered 200+ projects successfully in last 5 years for clients from all over India and over 10+ cities including Varanasi, Mirzapur, Prayagraj (Allahabad), Chandauli, Lucknow, Mumbai etc. Our work portfolio includes Static Business Websites, Corporate Lead Generation Websites, MLM Website, E-Commerce Web Design & Development.</p>
+                    <p className='leading-6 xl:w-[23rem] w-full'>Dropout IT Solution proudly holds the esteemed title of being the top-rated Website and App Development as well as IT Company in Varanasi, Uttar Pradesh, India. Over the past seven years, we have successfully completed and delivered more than 500 projects for clients spanning across the entire nation. Our diverse work portfolio encompasses Static Business Websites, Corporate Lead Generation Websites, MLM Websites, and E-Commerce Web Design & Development.</p>
                     <div className='flex gap-4 mt-3'>
                         <a href="" className='text-[20px]'><BsLinkedin /></a>
                         <a href="" className='text-[20px]'><BsFacebook /></a>

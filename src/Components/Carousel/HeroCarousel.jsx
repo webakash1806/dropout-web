@@ -8,6 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import homeImage from '../../assets/Img/homeImage.jpg'
+import { Link } from 'react-router-dom'
 
 const HeroCarousel = () => {
     const settings = {
@@ -39,7 +40,9 @@ const HeroCarousel = () => {
                                     }}
                                 /></span> Website Development</h1>
                         <p className="font-normal max-w-[28rem] min-h-fit  lg:w-[50vw] text-[#efefef]">We design and build responsive, visually stunning websites tailored to your unique needs. Harness the power of cutting-edge technology for a compelling and user-friendly digital experience.</p>
-                        <Btn cont={"Our Service"} />
+                        <Link to={'/website/web-dev'}>
+                            <Btn cont={"Our Service"} />
+                        </Link>
                     </div>
                     <img src={hero1} className="w-[28rem] pt-10 xl:w-[40vw]  drop-shadow-[5px_3px_5px_#000]" />
                 </div>
