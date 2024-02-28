@@ -31,7 +31,7 @@ const Header = () => {
             ${barActive ? "top-[6.5rem] left-[-80rem] duration-[0.5s]" : "top-[6.5rem] left-0 duration-[0.5s]"}
              xl:flex-row xl:static `}>
                     <div className="flex flex-col gap-3 xl:flex-row xl:gap-0 ">
-                        <Link to={'/'} className={navStyle}>
+                        <Link to={'/'} onClick={hamActive} className={navStyle}>
                             Home
                         </Link>
                         <div className="dropdown dropdown-hover">
@@ -49,7 +49,7 @@ const Header = () => {
                             <div tabIndex={0} role="button" className={`${navStyle} flex items-start gap-2`}>Website <FontAwesomeIcon icon={faSortDown} /></div>
                             <ul tabIndex={0} className="dropdown-content z-[1] menu p-1 shadow bg-base-100 w-full xl:w-[17rem] overflow-hidden">
                                 <li onClick={hamActive}>
-                                    <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Designing</Link>
+                                    <Link to={'/website/design'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Designing</Link>
                                     <Link to={'/website/web-dev'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Development</Link>
                                     <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Ecommerce Website</Link>
                                     <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Best Website Designing Company in Varanasi</Link>

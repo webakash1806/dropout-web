@@ -34,7 +34,7 @@ const WebDev = () => {
                     Professional Web Developers
                 </h1>
                 <h3 className='text-[1.2rem] text-white'>Innovation and Creativity with Creative Web Development</h3>
-                <p className='text-[#e9e7e7] mt-4'>
+                <p className='text-[#e9e7e7] mt-4 text-center'>
                     In the website design phase, our web developer thoroughly examines the assigned project, taking into account user needs and requirements documented in a technical specification. Our team of web developers and designers carefully scrutinizes the operational stages of the website and devises a technical solution. Upon completion of the website analysis, our technical web developers implement the installation of technical sheets and create user guides. Occasionally, it may be essential to provide technical support or conduct training sessions to assist users in utilizing the application effectively.               </p>
             </div>
             <div className='flex flex-col items-center justify-around gap-4 py-10 bg-[#191919] lg:justify-center md:flex-row md:gap-0'>

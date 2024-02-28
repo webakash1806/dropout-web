@@ -9,6 +9,7 @@ import Vision from './Page/Company/Vision'
 import Team from './Page/Company/Team'
 import Approach from './Page/Company/Approach'
 import WebDev from './Page/WebsitePage/WebDev'
+import WebDesign from './Page/WebsitePage/WebDesign'
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
 
         {/* Website Page Routes */}
         <Route path='/website/web-dev' element={<WebDev />} />
+        <Route path='/website/design' element={<WebDesign />} />
       </Routes>
       <Footer />
     </div>
