@@ -11,6 +11,7 @@ import Approach from './Page/Company/Approach'
 import WebDev from './Page/WebsitePage/WebDev'
 import WebDesign from './Page/WebsitePage/WebDesign'
 import Ecommerce from './Page/WebsitePage/Ecommerce'
+import WebSolutions from './Page/WebsitePage/WebSolutions'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
         <Route path='/website/web-dev' element={<WebDev />} />
         <Route path='/website/design' element={<WebDesign />} />
         <Route path='/website/e-commerce' element={<Ecommerce />} />
+        <Route path='/website/solutions' element={<WebSolutions />} />
       </Routes>
       <Footer />
     </div>

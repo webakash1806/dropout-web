@@ -52,6 +52,7 @@ const Header = () => {
                                     <Link to={'/website/design'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Designing</Link>
                                     <Link to={'/website/web-dev'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Development</Link>
                                     <Link to={'/website/e-commerce'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Ecommerce Website</Link>
+                                    <Link to={'/website/solutions'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Solutions</Link>
                                     <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Best Website Designing Company in Varanasi</Link>
                                     <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Website Designing Packages</Link>
                                     <Link to={'/'} className={`${navStyle} xl:w-full xl:p-3 xl:border-b rounded-none`}>Web Design</Link>
